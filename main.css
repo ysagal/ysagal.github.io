@@ -22,7 +22,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   z-index: -1;
@@ -52,9 +52,8 @@ a, a:hover, a:active, a:visited {
 .nav-logo {
   display: block;
   position: relative;
-  height: 34px;
-  top: 6px;
-  left: 30px;
+  height: 40px;
+  top: 10px;
   margin: auto;
   animation-delay: 1s;
 }
